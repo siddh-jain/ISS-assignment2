@@ -1,0 +1,39 @@
+body
+{
+    background-image: url(../img/back_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #c5e0e9;
+}
+
+.content
+{
+    text-align: center;
+    color:ivory;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:ivory;
+    font-size: 60px;
+    text-shadow: 2px 2px #000;
+
+}
+
+.content p
+{
+
+    color:ivory;
+    font-size: 30px;
+    text-shadow: 2px 2px #000;
+}
+
+.content img
+{
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+        
+}

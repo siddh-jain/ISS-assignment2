@@ -1,0 +1,63 @@
+body
+{
+    background-color: #faebd7;       
+    background-image: url(../img/back_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lower
+{
+    text-align: center;
+}
+
+.lower h2
+{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.lower p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my_skills img
+{
+    border: 2px solid #000;
+    border-radius: 4px;
+    height: 300px;
+    width: 350px;
+    opacity: 1;
+    transition: transform .1s;
+}
+
+.my_skills img:hover
+{
+    opacity: 0.7;
+    transform:scale(1.05);
+}
+
+table
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+td
+{
+    padding: 20px;
+}

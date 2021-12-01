@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Siddh Jain
+    </title>
+    <link rel="stylesheet" href="../css/com.css">
+    <link rel="stylesheet" href="../css/skills.css">
+    <script src="../js/com.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="navigationBar" id="navbar">
+        <a class="active" href="index.html">Home</a>
+        <a class="active" href="skills.html">Skills</a>
+        <a class="active" href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="respFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+    <div class="content">
+
+        <h2>My skillset:</h2>
+
+        <div class="iskills">
+
+            <table>
+                <tr>
+                    <th colspan="3">I have studied in:</th>
+                </tr>
+                <tr>
+                    <td>Stepping Stones High School </td>
+                    <td>Vibrant Academy</td>
+                    <td>IIIT Hyderabad</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+
+        <hr width="80%">
+
+        <h2>Skill Form:</h2>
+
+        <form action="" method="GET">
+            <br>
+            <input type="text" name="input" placeholder="name" id="inp1">
+            <input type="text" name="inputl" placeholder="skill" id="inp2">
+
+            <select name="proficiency" id="dropDown">
+                <option> Proficient</option>
+                <option>Beginner </option>
+                <option> Intermediate </option>
+            </select>
+            <br>
+            <input type="button" name="button" onclick="AddRow(this.form);" value="Submit">
+            <br><br>
+        </form>
+
+
+        <table cellpadding="10">
+            <tr>
+                <th> NAME </th>
+                <th> SKILL </th>
+                <th> LEVEL </th>
+            </tr>
+            <tbody id="skillTable">
+
+            </tbody>
+        </table>
+        <hr width="80%">
+
+
+
+
+
+    </div>
+</body>
+
+</html>
