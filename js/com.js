@@ -1,5 +1,6 @@
 window.onscroll = function () { myFunction() };
 // woow
+// navbar stick to top
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
